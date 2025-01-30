@@ -19,7 +19,7 @@ To run JokeMailer locally, you need:
 
 1. Clone the repository:
    ```bash
-   git clone 'https://github.com/your-repo/jokemailer.git'
+   git clone 'https://github.com/Rov95/JokeMailer.git'
    cd jokemailer
    ```
 
