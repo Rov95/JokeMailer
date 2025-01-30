@@ -1,0 +1,6 @@
+#Credentials
+
+.env
+
+#virtual enviroment
+.venv/

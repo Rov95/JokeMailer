@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .email-container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+        }
+
+        .header {
+            background-color: #022347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: rgb(1, 1, 1);
+            background-color: #1f4728;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <div class="header">Your Scheduled Joke</div>
+        
+        <div class="content">
+            <p>Hello,</p>
+            <p>Here's your joke for the day:</p>
+            <blockquote style="font-style: italic; color: #555;">
+                <!-- JOKE_PLACEHOLDER -->
+            </blockquote>
+
+            <p>Enjoy your day!</p>
+            <a href="https://official-joke-api.appspot.com" class="button">More Jokes</a>
+        </div>
+
+        <div class="footer">
+            You received this email because you subscribed to daily jokes. If you wish to unsubscribe, please ignore this email.
+        </div>
+    </div>
+</body>
+</html>
